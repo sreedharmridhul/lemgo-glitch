@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOCALI | The Lemgo Glitch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1 class="glitch">LOCALI</h1>
+            <p id="status-text">Locating Digital Fragments...</p>
+        </header>
+
+        <main id="game-container">
+            <div class="vibe-tracker">
+                <div class="fragment" id="frag-1"></div>
+                <div class="fragment" id="frag-2"></div>
+                <div class="fragment" id="frag-3"></div>
+            </div>
+
+            <section id="content-area">
+                <h2 id="location-title">Loading Quest...</h2>
+                <p id="location-desc">Please enable GPS to begin the hunt.</p>
+                <button id="action-btn" class="primary-btn">I'm at the Location</button>
+            </section>
+        </main>
+
+        <div id="success-screen" class="hidden">
+            <h2>Vibe Restored!</h2>
+            <p>Show this to the SAN REMO for your 50% discount.</p>
+            <div class="voucher-code">PIONEER-2026</div>
+            
+            <hr>
+            
+            <h3>Join the V2 Elite</h3>
+            <p>Get early access to the full map. No spam, just the future.</p>
+            <form id="waitlist-form">
+                <input type="email" id="user-email" placeholder="Enter your email" required>
+                <button type="submit" class="cta-btn">Join V2 Waiting List</button>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
